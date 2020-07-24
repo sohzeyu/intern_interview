@@ -28,3 +28,19 @@ Steps
 [+] Cash And Cash Equivalents At End
 
 
+Coding
+- used Pandas and tried to process the data
+- encountered several issues
+ 1) xlxs format causing issues (changed to csv)
+ 2) Headers and columms flipped in dataframe (edited the csv file to transpose the data)
+ 3) Type of data caused it to be unable to load information (changed excel sheet formatting)
+ 4) Some maps refused to load (bubble diagram)
+- Sucessfully plotted some graphs (cat and whisker diagram)
+- Sucessfully plotted some graphs (general graph)
+- libraries failed to load scatterplot and bubble plot
+
+General inference
+- although most statistics hover around the same values, Revenue and Profit steadily increased throughout the years
+- this was at the expense of operating cash flow in a glance, which dropped heavily
+- however correlation does not mean causation, and more have to be done to determine any validity or interesting findings 
+
