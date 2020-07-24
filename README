@@ -1,0 +1,30 @@
+DATA PROCESSING
+
+Started off with exploring the raw dataset. Although clean, several issues remained that made it hard to process efficiently
+- High number of null values recorded inconsistently as "n.a." or "-"
+- Redundant rows that were meant to be headers for easy viewing but affects data processing
+- Lots of derived data: such as ratios that can be easily calculated, not very helpful for analysing info such as correlation etc
+- Format of headers hard contains characters that caused problems for dataframe in pandas
+
+Steps
+1) For Exploratory Data Analysis, i removed all data that were ratios
+2) Sieved out only the data that were highlighted in blue as the header of the catergory
+3) Ended up with file EDA.xlxs 
+[+] Revenue
+[+] Cost of Revenue
+[+] Gross Profit
+[+] Share Of Profit Of Associates
+[+] Profit Before Tax (Include Exceptional Items)
+[+] Profit After Tax
+[+] Net Earnings
+[+] Profit Attributable To Shareholders
+[+] Shareholders' Equity
+[+] Total Equity, MI & Liabilities
+[+] Total Assets
+[+] Operating Cash Flows Before Working Capital Changes
+[+] Cash Generated From / (Used In) Operations
+[+] Net Cash Generated From / (Used In) Operating Activities
+[+] Net Changes In Cash And Cash Equivalents
+[+] Cash And Cash Equivalents At End
+
+
